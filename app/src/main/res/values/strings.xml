@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FruitApp</string>
+
+    <string name="enter_the_name_of_fruit">Enter the name of fruit</string>
+    <string name="enter_the_calories">Enter the calories</string>
+    <string name="fruit_list">Healthy fruit </string>
+    <string name="save">Save</string>
+    <string name="_200_cal">200 cal</string>
+    <string name="apple">Apple</string>
+    <string name="calories">Calories:</string>
+    <string name="fruit">Fruit</string>
+
+</resources>
