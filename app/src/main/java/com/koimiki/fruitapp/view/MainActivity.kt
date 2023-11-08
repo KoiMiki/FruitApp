@@ -1,7 +1,5 @@
 package com.koimiki.fruitapp.view
 
-import android.app.AlertDialog
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -64,20 +62,4 @@ class MainActivity : AppCompatActivity(), FruitView {
         }
         return true
     }
-    private fun showDialog(){
-        val builder: AlertDialog.Builder = AlertDialog.Builder(this)
-        builder
-            .setMessage("Delete")
-            .setTitle("The you want delete fruit")
-            .setPositiveButton("Yes") { dialog, which ->
-
-            }
-            .setNegativeButton("No") { dialog, which ->
-
-            }
-
-        val dialog: AlertDialog = builder.create()
-        dialog.show()
-    }
-
 }
