@@ -53,11 +53,11 @@ class MainActivity : AppCompatActivity(), FruitView {
 
     private fun isInputValid(): Boolean {
         if (fruit.text.trim().isEmpty()) {
-            fruit.error = "Fruit is required"
+            fruit.error = getString(R.string.fruit_is_required)
             return false
         }
         if (calories.text.trim().isEmpty()) {
-            calories.error = "Calories is required"
+            calories.error = getString(R.string.calories_is_required)
             return false
         }
         return true

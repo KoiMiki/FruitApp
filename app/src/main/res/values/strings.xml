@@ -9,5 +9,7 @@
     <string name="apple">Apple</string>
     <string name="calories">Calories:</string>
     <string name="fruit">Fruit</string>
+    <string name="calories_is_required">Calories is required</string>
+    <string name="fruit_is_required">Fruit is required</string>
 
 </resources>
