@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity(), FruitView {
             return false
         }
         if (calories.text.trim().isEmpty()) {
-            calories.error = "Calories is requred"
+            calories.error = "Calories is required"
             return false
         }
         return true
